@@ -1,4 +1,8 @@
 import * as React from 'react';
+import FaqWidget_1 from './newComp_1/newComp_1';
+import FaqWidget_2 from './newComp_2/newComp_2';
+
+export{ FaqWidget_1, FaqWidget_2 };
 //import * as Scrivito from 'scrivito';
 
 // const FaqWidget = Scrivito.provideWidgetClass('FaqWidget', {
@@ -38,15 +42,3 @@ import * as React from 'react';
 //     </div>
 //   );
 // });
-
-export function FaqWidget() {
-  return(<div>
-    <h1>Teste de Componente</h1>
-  </div>)
-}
-
-export function FaqWidget_2() {
-  return(<div>
-    <h1>Teste de Componente 2</h1>
-  </div>)
-}
