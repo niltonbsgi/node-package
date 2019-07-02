@@ -39,7 +39,7 @@ import * as React from 'react';
 //   );
 // });
 
-export default function FaqWidget() {
+export function FaqWidget() {
   return(<div>
     <h1>Teste de Componente</h1>
   </div>)
