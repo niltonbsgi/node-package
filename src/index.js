@@ -39,10 +39,14 @@ import * as React from 'react';
 //   );
 // });
 
-function FaqWidget() {
+export default function FaqWidget() {
   return(<div>
     <h1>Teste de Componente</h1>
   </div>)
 }
 
-export default FaqWidget;
+export function FaqWidget_2() {
+  return(<div>
+    <h1>Teste de Componente 2</h1>
+  </div>)
+}
